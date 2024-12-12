@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table {border: 4px solid grey;}
+            td, th {border: 3px solid grey;}
+            table, td, th {border-collapse: collapse;}
+            .sommaire {
+               border: 3px solid black;
+               background-color: goldenrod;
+               
+               width: 100px;
+            }
+        </style>
+        <title>Eléments HTML</title>
+        <h1><strong>Eléments HTML (et autre)</h1></strong>
+    </head>
+    <body>
+                <a href="../index.html"><button>Retour</button></a>
+      <div class="sommaire">
+        <h3><em>Sommaire</em></h3>
+                <a href="#section-A">Balises</a> <br>
+                <a href="#section-B">Attributs</a> <br>
+                <a href="#section-C">Entités</a> <br>
+                <a href="#section-D">Fonctionnalités et moteurs de recherche</a>
+      </div>
+                        <p>Chapeau</p>
+<!--Section éléments en lignes-->
+        <h2 id="section-A">Eléments</h2>
+<hr>
+        <h3><em>Structure</em></h3>
+                        <p>● &lsaquo;html&rsaquo; <br> ○ Conteneur principal d'un document html.</p>
+                        <p>● &lsaquo;head&rsaquo; <br> ○ Contient les métadonées et les ressources du document.</p>
+                        <p>● &lsaquo;title&rsaquo; <br> ○ Définit le titre de la page (onglet du navigateur).</p>
+                        <p>● &lsaquo;body&rsaquo; <br> ○ Contient le contenu visible de la page.</p>
+                        <p>● &lsaquo;main&rsaquo; <br> ○ Représente la partie principale de la page.</p>
+                        <p>● &lsaquo;section&rsaquo; <br> ○ Sert à regrouper les contenus liés.</p>
+                        <p>● &lsaquo;header&rsaquo; <br> ○ Représente le contenu d'introduction de la page</p>
+                        <p>● &lsaquo;footer&rsaquo; <br> ○ Représente le contenu de "conclusion" de la page</p>
+                        <p>● &lsaquo;aside&rsaquo; <br> ○ Représente un contenu non directement lié au contenu principal.</p>
+
+<hr>
+        <h3><em>Texte et mise en forme</em></h3>
+                        <p title="header">● &lsaquo;h1&rsaquo; à &lsaquo;h6&rsaquo; <br> ○ Titres, de niveaux 1 à 6.</p>
+                        <p>● &lsaquo;p&rsaquo; <br> ○ Paragraphe.</p>
+                        <p title="brake">● &lsaquo;br&rsaquo; <br> ○ Saut de ligne.</p>
+                        <p>● &lsaquo;hr&rsaquo; <br> ○ Ligne horizontale.</p>
+                        <p>● &lsaquo;strong&rsaquo; <br> ○ Texte important (gras).</p>
+                        <p title="emphase">● &lsaquo;em&rsaquo; <br> ○ Texte en italique (emphase).</p>
+                        <p title="underline">● &lsaquo;u&rsaquo; <br> ○ Texte souligné.</p>
+                        <p>● &lsaquo;span&rsaquo; <br> ○ Conteneur en ligne sans signification particulière.</p>
+                        <p>● &lsaquo;div&rsaquo; <br> ○ Division ou conteneur pour regrouper des éléments.</p>
+<hr>
+        <h3><em>Listes</em></h3>
+                        <dl>
+                           <dt> ● &lsaquo;menu&rsaquo; = Liste de description.</dt>
+                           <dd> Les éléments de cette liste sont créés avec la balise <strong>&lsaquo;li&rsaquo;</strong>.</dd>
+                           <dt title="unordered list">● &lsaquo;ul&rsaquo; = Liste non ordonnée.</dt>
+                           <dd> Les éléments de cette liste sont aussi créés avec la balise <strong>&lsaquo;li&rsaquo;</strong>.</dd>
+                           <dt title="ordered list">● &lsaquo;ol&rsaquo; = Liste ordonnée.</dt>
+                           <dd> Les éléments de cette liste sont aussi créés avec la balise <strong>&lsaquo;li&rsaquo;</strong>.</dd>
+                           <p title="list item">○ &lsaquo;li&rsaquo; = Elémént de liste.</p>
+                           <dt title="description list">● &lsaquo;dl&rsaquo; = Liste de définitions.</dt>
+                           <dd title="description term">○ &lsaquo;dt&rsaquo; Texte défini de la liste.</dd>
+                           <dd title="description detail">○ &lsaquo;dd&rsaquo; = Description ou définition.</dd>
+                        </dl>
+<hr>
+        <h3><em>Liens et navigation</em></h3>
+                        <p>● &lsaquo;a&rsaquo; <br> ○ Lien hypertexte.</p>
+                        <p>● &lsaquo;nav&rsaquo; <br> ○ Section de navigation.</p>
+<hr>
+        <h3><em>Multimédia</em></h3>
+                        <p>● &lsaquo;img&rsaquo; <br> ○ Image</p>
+                        <p>● &lsaquo;video&rsaquo; <br> ○ Vidéo</p>
+                        <p>● &lsaquo;audio&rsaquo; <br> ○ Audio</p>
+                        <p>● &lsaquo;source&rsaquo; <br> ○ Source pour &lsaquo;video&rsaquo; ou &lsaquo;audio&rsaquo; </p>
+                        <p>● &lsaquo;track&rsaquo; <br> ○ Sous-titre pour &lsaquo;video&rsaquo; ou &lsaquo;audio&rsaquo; </p>
+<hr>
+        <h3><em>Formulaires</em></h3>
+                        <p>● &lsaquo;form&rsaquo; <br> ○ Formulaire.</p>
+                        <p>● &lsaquo;input&rsaquo; <br> ○ Champ de saisie.</p>
+                        <p>● &lsaquo;textarea&rsaquo; <br> ○ Zone de texte multiligne.</p>
+                        <p>● &lsaquo;button&rsaquo; <br> ○ Bouton cliquable.</p>
+                        <p>● &lsaquo;label&rsaquo; <br> ○ Etiquette pour un champ.</p>
+                        <p>● &lsaquo;select&rsaquo; <br> ○ Liste déroulante.</p>
+                        <p>● &lsaquo;option&rsaquo; <br> ○ Option dans une liste déroulante.</p>
+                        <p>● &lsaquo;fieldset&rsaquo; <br> ○ Groupe de champs.</p>
+                        <p>● &lsaquo;legend&rsaquo; <br> ○ Légende pour un &lsaquo;fieldset&rsaquo;.</p>
+<hr>
+        <h3><em>Tableaux</em></h3>
+                        <p>● &lsaquo;table&rsaquo; <br> ○ Tableau.</p>
+                        <p>● &lsaquo;tr&rsaquo; <br> ○ Ligne de tableau.</p>
+                        <p>● &lsaquo;th&rsaquo; <br> ○ En-tête de tableau.</p>
+                        <p>● &lsaquo;td&rsaquo; <br> ○ Cellule de tableau.</p>
+                        <p>● &lsaquo;caption&rsaquo; <br> ○ Légende du tableau.</p>
+                        <p>● &lsaquo;thead&rsaquo; <br> ○ Section d'en-tête.</p>
+                        <p>● &lsaquo;tbody&rsaquo; <br> ○ Section du corps.</p>
+                        <p>● &lsaquo;tfoot&rsaquo; <br> ○ Section du pied.</p>
+<hr>
+        <h3><em>Sémantique et structure</em></h3>
+                        <p>● &lsaquo;header&rsaquo; <br> ○ En-tête de section ou de page.</p>
+                        <p>● &lsaquo;footer&rsaquo; <br> ○ Pied de pâge</p>
+                        <p>● &lsaquo;section&rsaquo; <br> ○ Section générique</p>
+                        <p>● &lsaquo;article&rsaquo; <br> ○ Article indépendant</p>
+                        <p>● &lsaquo;aside&rsaquo; <br> ○ Contenu pour un média</p>
+                        <p>● &lsaquo;figure&rsaquo; <br> ○ Conteneur pour un média</p>
+                        <p>● &lsaquo;figcaption&rsaquo; <br> ○ Légende pour un &lsaquo;figure&rsaquo; </p>
+<hr>
+        <h3><em>Sripts et resources</em></h3>
+                        <p>● &lsaquo;script&rsaquo; <br> ○ Code JavaScript.</p>
+                        <p>● &lsaquo;link&rsaquo; <br> ○ Lien vers une ressource externe (CSS, favicon, etc...).</p>
+                        <p>● &lsaquo;style&rsaquo; <br> ○ Style CSS intégré.</p>
+                        <p>● &lsaquo;meta&rsaquo; <br> ○ Metadonnées</p> 
+<!--Section Attributs en tableau-->       
+        <h2 id="section-B">Attributs</h2>
+                        <table>
+                           <thead>
+                                <tr>
+                                   <th colspan="2"><em><h3>- Liste d'attributs globaux -</h3></em></th>
+                                </tr>
+                                <tr>
+                                   <th scope="col">Attribut</th>
+                                   <th scope="col">Description</th>
+                                </tr>
+                           </thead>
+                           <tbody>
+                                <tr>
+                                   <th scope="row">id</th>
+                                   <td> Identifie un élément de manière unique sur la page. </td>
+                                </tr>
+                                <tr>
+                                   <th scope="row">class</th>
+                                   <td> Associe un élément de manière unique sur la page. </td>
+                                </tr>
+                                <tr>
+                                   <th scope="row">style</th>
+                                   <td> Associe un élément à un ou plusieurs groupes de styles ou comportements. </td>
+                                </tr>
+                                <tr>
+                                   <th scope="row">title</th>
+                                   <td> Ajoute une info-bulle lorsqu'on survole l'élément. </td>
+                                </tr>
+                                <tr>
+                                   <th scope="row">lang</th>
+                                   <td> Définit la langue de l'élément. </td>
+                                </tr>
+                                <tr>
+                                   <th scope="row">hidden</th>
+                                   <td> Cache un élément sans le supprimer du document. </td>
+                                </tr>
+                                <tr>
+                                   <th scope="row">contenteditable</th>
+                                   <td> Rend l'élément éditable pr l'utilisateur. </td>
+                                </tr>
+                                <tr>
+                                   <th scope="row">draggable</th>
+                                   <td> Permet de rendre l'élément déplaçable ("true" ou "false")</td>
+                                </tr>
+                                <tr>
+                                   <th scope="row">spellcheck</th>
+                                   <td> Active ou désactive la vérification orthographique ("true" ou "false")</td>
+                                </tr>
+                                <tr>
+                                   <th scope="row">accesskey</th>
+                                   <td> Définit une touche pour accéder rapidement un élément.</td>
+                                </tr>
+                           </tbody>
+                           <tfoot>
+
+                           </tfoot>    <!--Apprendre à utiliser attribut colspan-->  
+                        </table>
+<!--Section Entités-->
+        <h2 id="section-C">Entités</h2>
+                        <p>
+                        De nombreux caractères étants déjà utilisés
+                        dans le langage HTML, il est alors impossible
+                        de les utiliser dans des textes. Pour résoudre
+                        ce problème, on utilise des <strong>entités</strong>.
+                        Celles-ci sont toutes regroupées sur le site ci-dessous.
+                        </p>
+                <a href="https://www.freeformatter.com/html-entities.html" target="_blank">Entities list</a>
+<!--Section Fonctionnalités [...]-->
+        <h2 id="section-D">Fonctionnalités et moteurs de recherche</h2>
+                        <p>
+                        Chaque moteur de recherche peut supporter ou non
+                        certaines fonctionnalités HTML ou CSS. Le site Caniuse
+                        permet de voir quelles fonctionnalités peuvent être tolérées
+                        ou non par quel moteur de recherche. <em>(voir ci-dessous)</em>
+                        </p>
+                <a href="https://caniuse.com" target="_blank">Caniuse</a>
+                        <p>
+                        Blablabla3
+                        </p>
+                <a href="#"><button>Revenir en haut</button></a>
+    </body>
+</html>
